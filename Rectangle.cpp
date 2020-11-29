@@ -18,6 +18,7 @@ Rectangle::Rectangle(std::vector<Point> points): Polygon(points)
 	catch ([[maybe_unused]] int a)
 	{
 		std::cout << "Count of points of rectangle is not 4";
+		exit(a);
 	}
 
 
